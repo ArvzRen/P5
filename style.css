@@ -1,0 +1,17 @@
+.scoreboard{
+    display: grid;
+    grid-template-columns: repeat(2, 1 fr);
+    width: 300px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.scoreboard_name, 
+.scoreboard_score {
+    padding: 10px;
+    text-align: center;
+}
+
+.scoreboard_name {
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
